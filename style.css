@@ -86,7 +86,8 @@ li a {
     from, to { border-color: transparent }
     50% { border-color: #949090; }
 }
-  
+/* Typewriter animation from Geoff Graham (https://css-tricks.com/snippets/css/typewriter-effect/) ending viewed on: 12/12/2021  */
+
 .me{
   
     display: block;
@@ -410,6 +411,7 @@ li a{
     width: 620px ;
 }
 
+/* Typewriter effect from Geoff Graham (https://css-tricks.com/snippets/css/typewriter-effect/) ending viewed on: 12/12/2021  */
 @keyframes typing {
     from { width: 0 }
     to { width: 620px;}
