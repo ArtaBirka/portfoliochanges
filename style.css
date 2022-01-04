@@ -354,18 +354,23 @@ iframe {
     height: 210px;
     width: 100%;
 }
-  
-footer {
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+footer{
+   
     background-color: #000;
     height: 160px;
+    
+}
+  
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
 }
 
 footer img{
-    margin: auto;
+    margin-top: 35px;
     height: 90px;
 }
 
@@ -657,13 +662,12 @@ h3{
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
     height: 350px;
-    margin-top: 20px;
-    
 }
 
-footer img{
-
+.icons img {
     height: 110px;
 }
 
@@ -676,8 +680,6 @@ footer img{
     font-size: 55px;
     margin-left: auto ;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 0;
     display: block;
  
 
