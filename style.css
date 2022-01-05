@@ -133,6 +133,10 @@ hr{
     display: none;
 }
 
+.toolshr{
+    display: none;
+}
+
 .mobilehr{  
     background-color: #000;
     border-width:0;
@@ -481,6 +485,7 @@ h3{
 
 /* another horizontal line above tools css */
 .toolshr{
+    display: block;
     width: calc(100% + 11.6%);
     height: 2px;
     background-color: black;
